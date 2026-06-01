@@ -1,0 +1,21 @@
+{
+    "projectName": "agama-business-forget-username",
+    "description": "agama-business-forget-username",
+    "type": "community",
+    "author": "PhiWallet",
+    "version": "0.0.1",
+    "authorWebsite": "https://github.com/AutomateCentroxy/Forget-Username-flow",
+    "githubUri": "https://github.com/AutomateCentroxy/Forget-Username-flow",
+    "license": "apache-2.0",
+    "lastUpdated": "1761643127187",
+    "tags": [
+        "jans",
+        "community",
+        "authentication"
+    ],
+    "noDirectLaunch": [],
+    "configs": {
+        "org.gluu.agama.businessforgetusername.main": {}
+    },
+    "name": "agama-business-forget-username"
+}
