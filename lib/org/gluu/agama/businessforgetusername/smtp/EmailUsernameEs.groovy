@@ -43,11 +43,11 @@ class EmailUsernameEs {
 
                         <p><strong>Por tu seguridad:</strong></p>
                         <ul><li>Nunca compartas tu nombre de usuario ni tu contraseña.</li>
-                            <li>Phi Wallet nunca te pedirá información confidencial como tu contraseña.</li>
+                            <li>Phi Wallet Business nunca te pedirá información confidencial como tu contraseña.</li>
                         </ul>
 
-                        <p>Gracias por elegir Phi Wallet.</p>
-                        <p style="margin-top:30px;">Saludos,<br>Equipo Phi Wallet</p>
+                        <p>Gracias por elegir Phi Wallet Business.</p>
+                        <p style="margin-top:30px;">Saludos,<br>Equipo Phi Wallet Business</p>
                       </td>
                     </tr>
                   </tbody>
@@ -69,9 +69,10 @@ class EmailUsernameEs {
                           <a href="https://www.linkedin.com/company/phiwallet"><img src="https://storage.googleapis.com/mwapp_prod_bucket/social_icon_images/linkedin.png" style="height:20px;margin:0 5px;"></a>
                         </p>
                         <p style="margin-top:10px;color:#A8AAAF;font-size:12px;">
-                          Phi Wallet Unipessoal LDA<br>
-                          Avenida da Liberdade 262 R/C<br>
-                          1250-149 Lisboa, Portugal
+                          Phi Wallet, Unipessoal, LDA<br>
+                          Avenida Dom João II, Lote 11902/A Escritório 2.10<br>
+                          Lisboa - 1990-366<br>
+                          Portugal
                         </p>
                       </td>
                     </tr>
@@ -89,7 +90,7 @@ class EmailUsernameEs {
 """;
 
         return Map.of(
-            "subject", "Recuperación de tu nombre de usuario de Phi Wallet",
+            "subject", "Recuperación de tu nombre de usuario de Phi Wallet Business",
             "body", html
         );
     }

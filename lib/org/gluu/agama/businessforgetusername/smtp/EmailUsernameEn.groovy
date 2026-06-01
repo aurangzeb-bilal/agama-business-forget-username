@@ -47,12 +47,12 @@ class EmailUsernameEn {
 
                         <p><strong>For your safety:</strong></p>
                         <ul><li>Never share your username or password.</li>
-                            <li>Phi Wallet will never contact you asking for sensitive information like your password.</li>
+                            <li>Phi Wallet Business will never contact you asking for sensitive information like your password.</li>
                         </ul>
 
-                        <p>Thanks for using Phi Wallet.</p>
+                        <p>Thanks for using Phi Wallet Business.</p>
 
-                        <p style="margin-top:30px;">Kind regards,<br>Phi Wallet Team</p>
+                        <p style="margin-top:30px;">Kind regards,<br>Phi Wallet Business Team</p>
                       </td>
                     </tr>
                   </tbody>
@@ -75,9 +75,9 @@ class EmailUsernameEn {
                           <a href="https://www.linkedin.com/company/phiwallet" style="margin:0 5px;"><img src="https://storage.googleapis.com/mwapp_prod_bucket/social_icon_images/linkedin.png" style="height:20px;"></a>
                         </p>
                         <p style="margin-top:10px;line-height:20px;color:#A8AAAF;font-size:12px;">
-                          Phi Wallet Unipessoal LDA<br>
-                          Avenida da Liberdade 262 R/C<br>
-                          1250-149 Lisbon<br>
+                          Phi Wallet, Unipessoal, LDA<br>
+                          Avenida Dom João II, Lote 11902/A Escritório 2.10<br>
+                          Lisboa - 1990-366<br>
                           Portugal
                         </p>
                       </td>
@@ -96,7 +96,7 @@ class EmailUsernameEn {
 """;
 
         return Map.of(
-            "subject", "Your Phi Wallet Username Recovery",
+            "subject", "Your Phi Wallet Business Username Recovery",
             "body", html
         );
     }

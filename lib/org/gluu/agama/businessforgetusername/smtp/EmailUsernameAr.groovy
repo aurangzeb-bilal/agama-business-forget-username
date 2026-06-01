@@ -46,7 +46,7 @@ class EmailUsernameAr {
                           <li>لن نطلب منك أبداً معلومات حساسة مثل كلمة المرور.</li>
                         </ul>
 
-                        <p style="margin-top:30px;">مع أطيب التحيات،<br>فريق فاي والت</p>
+                        <p style="margin-top:30px;">مع أطيب التحيات،<br>فريق Phi Wallet Business</p>
 
                       </td>
                     </tr>
@@ -70,9 +70,9 @@ class EmailUsernameAr {
                           <a href="https://www.linkedin.com/company/phiwallet" style="margin:0 5px;"><img src="https://storage.googleapis.com/mwapp_prod_bucket/social_icon_images/linkedin.png" style="height:20px;"></a>
                         </p>
                         <p style="margin-top:10px;line-height:20px;color:#A8AAAF;font-size:12px;">
-                          Phi Wallet Unipessoal LDA<br>
-                          Avenida da Liberdade 262 R/C<br>
-                          1250-149 Lisbon<br>
+                          Phi Wallet, Unipessoal, LDA<br>
+                          Avenida Dom João II, Lote 11902/A Escritório 2.10<br>
+                          Lisboa - 1990-366<br>
                           Portugal
                         </p>
                       </td>
@@ -91,7 +91,7 @@ class EmailUsernameAr {
 """;
 
         return Map.of(
-            "subject", "استرجاع اسم المستخدم في Phi Wallet",
+            "subject", "استرجاع اسم المستخدم في Phi Wallet Business",
             "body", html
         );
     }

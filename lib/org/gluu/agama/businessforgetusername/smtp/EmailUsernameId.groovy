@@ -41,12 +41,12 @@
 
                   <ul>
                       <li>Jangan pernah membagikan nama pengguna atau kata sandi Anda.</li>
-                      <li>Phi Wallet tidak akan pernah meminta informasi sensitif seperti kata sandi Anda.</li>
+                      <li>Phi Wallet Business tidak akan pernah meminta informasi sensitif seperti kata sandi Anda.</li>
                   </ul>
 
 
-                  <p>Terima kasih telah menggunakan Phi Wallet.</p>
-                  <p style="margin-top:30px;">Salam hangat,<br>Tim Phi Wallet</p>
+                  <p>Terima kasih telah menggunakan Phi Wallet Business.</p>
+                  <p style="margin-top:30px;">Salam hangat,<br>Tim Phi Wallet Business</p>
                 </td>
               </tr>
             </tbody>
@@ -64,9 +64,10 @@
                     <a href="https://www.linkedin.com/company/phiwallet"><img src="https://storage.googleapis.com/mwapp_prod_bucket/social_icon_images/linkedin.png" style="height:20px;margin:0 5px;"></a>
                   </p>
                   <p style="margin-top:10px;color:#A8AAAF;">
-                    Phi Wallet Unipessoal LDA<br>
-                    Avenida da Liberdade 262 R/C<br>
-                    1250-149 Lisbon, Portugal
+                    Phi Wallet, Unipessoal, LDA<br>
+                    Avenida Dom João II, Lote 11902/A Escritório 2.10<br>
+                    Lisboa - 1990-366<br>
+                    Portugal
                   </p>
                 </td>
               </tr>
@@ -80,7 +81,7 @@
   """;
 
           return Map.of(
-              "subject", "Pemulihan Nama Pengguna Phi Wallet Anda",
+              "subject", "Pemulihan Nama Pengguna Phi Wallet Business Anda",
               "body", html
           );
       }
